@@ -1,5 +1,5 @@
-# ENSO-forecast-mindspore
-An unofficial implement of paper "Deep learning for multi-year ENSO forecast".
+# ENSO-forecast-mindspore implementation
+An unofficial implementation of paper "Deep learning for multi-year ENSO forecast".
 
 Paper DOI: [10.1038/s41586-019-1559-7](https://doi.org/10.1038/s41586-019-1559-7) 
 
