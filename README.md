@@ -20,5 +20,5 @@ python train.py --exp_name <your_exp_name> --pretrain --batch_size 500 --epochs 
 If you set `--pretrain`，you use the CMIP data and the OBSTrain data simultaneously for training, otherwise you use the CMIP data for training and OBSTrain data for fintuning, which will require you to run `finetune.py` after the training is completed.
 
 ### Result
-
+After training of finetuning, you get the experiment results in `experiments/<your_exp_name>`, including the saved model `pretrained_model.ckpt` and the validation result `logfile.pickle` and the result figure `result_fig.png`.
 ![image-20250615113825666](./img/result.png)
